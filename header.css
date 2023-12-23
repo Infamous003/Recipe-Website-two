@@ -1,0 +1,43 @@
+header {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.logo {
+  width: 16%;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  column-gap: 20px;
+  font-size: 1.1rem;
+  flex-grow: 1;
+}
+li {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.2s;
+}
+a:hover {
+  color: rgb(102, 94, 255);
+}
+
+.contact-btn {
+  font-size: 1.1rem;
+  padding: 0.39rem 1rem;
+  background-color: rgb(100, 92, 255);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  height: 60%;
+  cursor: pointer;
+}
+.contact-btn:hover {
+  background-color: rgb(71, 61, 184);
+}

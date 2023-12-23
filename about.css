@@ -1,0 +1,83 @@
+main {
+  width: 80%;
+}
+
+.upper-section {
+  display: flex;
+}
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 50%;
+}
+.left-section h1, p {
+  width: 90%;
+}
+.left-section h1 {
+  font-size: 2.6rem;
+}
+.left-section p{
+  font-size: 1rem;
+}
+.contact-btn {
+  width: 6.5rem;
+  height: 2.5rem;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+}
+.right-section{
+  width: 50%;
+  height: 430px;
+  object-fit: cover;
+}
+.right-section img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+/*Lower Section CSS*/
+
+.lower-div {
+  display: flex;
+  column-gap: 2%;
+  width: 100%;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+
+.card {
+  width: 40%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+.card img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  transition: opacity 0.2s;
+}
+.card img:hover{
+  opacity: 0.85;
+}
+.card h2 {
+  margin: 5px 0px;
+}
+.card p{
+  margin: 5px 0px;
+}
+.card h2 {
+  font-size: 1.5rem;
+}
+.card p {
+  font-size: 1rem;
+  color: rgb(40, 40, 40);
+}
